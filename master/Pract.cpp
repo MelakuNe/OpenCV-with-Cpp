@@ -5,9 +5,9 @@ using namespace cv;
 
 struct things
 {
-	std::string imagePath = "C:/Users/Temporary/Desktop/IoT_WT/Industrial Immersion/ImageDataset/ima/8.jpg";
-	std::string imagePath2 = "C:/Users/Temporary/Desktop/flower.jpg";
-	std::string newImage = "C:/Users/Temporary/Desktop/IoT_WT/Industrial Immersion/ImageDataset/ima/";
+	std::string imagePath = "../TestImage/8.jpg";
+	std::string imagePath2 = "../TestIMage/flower.jpg";
+	std::string newImage = "../TestImage/ima/";
 };
 
 static things thing;
